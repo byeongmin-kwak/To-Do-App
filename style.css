@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px 30px 100px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 60px;
+}
+
+.add-todo {
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 2cqi;
+}
+
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  padding: 30px;
+  list-style: none;
+  background-color: aquamarine;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  zoom: 2.0;
+}
+
+p {
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+
+
+.edit, .delete {
+  width: 70px;
+  margin: 10px;
+}
