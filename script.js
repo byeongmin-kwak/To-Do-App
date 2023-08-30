@@ -16,8 +16,8 @@ function loadTodoList() {
         <p>${todoItem.text}</p>
       </div>
       <div class="content">
-        <img class="edit" src="/image/edit.png" alt="">
-        <img class="delete" src="/image/delete.png" alt="">
+        <img class="edit" src="./image/edit.png" alt="">
+        <img class="delete" src="./image/delete.png" alt="">
       </div>
     `;
 
@@ -154,8 +154,8 @@ addTodoButton.addEventListener("click", function () {
       <p>New ToDo</p>
     </div>
     <div class="content">
-      <img class="edit" src="/image/edit.png" alt="">
-      <img class="delete" src="/image/delete.png" alt="">
+      <img class="edit" src="./image/edit.png" alt="">
+      <img class="delete" src="./image/delete.png" alt="">
     </div>
   `;
 
